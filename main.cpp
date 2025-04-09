@@ -59,7 +59,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         AddToStart(Head, values[i]);
     }
-
+    std::cout << "#2" << std::enld;
     std::cout << "List: ";
     PrintList(Head);
 
