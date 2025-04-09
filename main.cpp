@@ -61,6 +61,7 @@ int main() {
     }
 
     std::cout << "List: ";
+    std::cout << "it`s in my repoz " <<std::endl;
     PrintList(Head);
 
     T sumEven = SumEvenElements(Head);
