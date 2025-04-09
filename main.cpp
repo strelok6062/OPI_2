@@ -64,7 +64,7 @@ int main() {
     PrintList(Head);
 
     T sumEven = SumEvenElements(Head);
-    std::cout << "Sum of even elements: " << sumEven << std::endl;
+    std::cout << "Sum of even elements in file: " << sumEven << std::endl;
 
     DeleteList(Head);
     return 0;
