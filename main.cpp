@@ -59,7 +59,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         AddToStart(Head, values[i]);
     }
-
+    std::cout << "it`s project Marchenko " <<std::endl;
     std::cout << "List: " << std::endl;
     std::cout << "it`s in my repoz " <<std::endl;
     PrintList(Head);
