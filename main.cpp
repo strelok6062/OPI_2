@@ -60,7 +60,7 @@ int main() {
         AddToStart(Head, values[i]);
     }
 
-    std::cout << "List: ";
+    std::cout << "List: " << std::endl;
     std::cout << "it`s in my repoz " <<std::endl;
     PrintList(Head);
 
