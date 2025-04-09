@@ -53,7 +53,7 @@ void DeleteList(Node*& head) {
 int main() {
     Node* Head = nullptr;
 
-    T values[] = { 6, -11, 15, 21, 8, -14, 18, 22, 11, 13, 20, 24, -26, 28, 30, 32, 33 };
+    T values[] = { 6, -11, 15, 21, 8, -14, 18, 22, 11, 13, 20, 24, -26, 28, 30, 32, 33 33, 14, -16, -33, 26, 6};
     int n = sizeof(values) / sizeof(values[0]);
 
     for (int i = 0; i < n; i++) {
